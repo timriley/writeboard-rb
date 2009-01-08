@@ -1,0 +1,3 @@
+h1. writeboard-rb
+
+A little Ruby class to access Basecamp Writeboards programatically.
