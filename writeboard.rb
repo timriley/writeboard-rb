@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'hpricot'
-require 'tempfile'
 require 'fileutils'
 
 # Example of use
@@ -27,7 +26,7 @@ module Basecamp
       @username       = options[:username]
       @password       = options[:password]
       @cookie_jar     = options[:cookie_jar]
-      @ssl            = options[:use_ssl]     || false
+      @ssl            = options[:use_ssl] || false
       @domain         = @url.split(/\/+/)[1]
     end
     
